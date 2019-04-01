@@ -14,6 +14,8 @@
 		BBACD55722528FA400FE8EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBACD55522528FA400FE8EBA /* LaunchScreen.storyboard */; };
 		BBACD56222528FA400FE8EBA /* LifeSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD56122528FA400FE8EBA /* LifeSaverTests.swift */; };
 		BBACD56D22528FA400FE8EBA /* LifeSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD56C22528FA400FE8EBA /* LifeSaverUITests.swift */; };
+		BBACD57C2252931D00FE8EBA /* UIRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD57B2252931D00FE8EBA /* UIRoundButton.swift */; };
+		BBACD57E2252988A00FE8EBA /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD57D2252988A00FE8EBA /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BBACD56822528FA400FE8EBA /* LifeSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBACD56C22528FA400FE8EBA /* LifeSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSaverUITests.swift; sourceTree = "<group>"; };
 		BBACD56E22528FA400FE8EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBACD57B2252931D00FE8EBA /* UIRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundButton.swift; sourceTree = "<group>"; };
+		BBACD57D2252988A00FE8EBA /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		BBACD54B22528FA000FE8EBA /* LifeSaver */ = {
 			isa = PBXGroup;
 			children = (
+				BBACD57A225292DD00FE8EBA /* View */,
 				BBACD54C22528FA000FE8EBA /* AppDelegate.swift */,
 				BBACD54E22528FA000FE8EBA /* ViewController.swift */,
 				BBACD55022528FA000FE8EBA /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				BBACD56E22528FA400FE8EBA /* Info.plist */,
 			);
 			path = LifeSaverUITests;
+			sourceTree = "<group>";
+		};
+		BBACD57A225292DD00FE8EBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBACD57B2252931D00FE8EBA /* UIRoundButton.swift */,
+				BBACD57D2252988A00FE8EBA /* BorderButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			files = (
 				BBACD54F22528FA000FE8EBA /* ViewController.swift in Sources */,
 				BBACD54D22528FA000FE8EBA /* AppDelegate.swift in Sources */,
+				BBACD57C2252931D00FE8EBA /* UIRoundButton.swift in Sources */,
+				BBACD57E2252988A00FE8EBA /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75F26495F5;
 				INFOPLIST_FILE = LifeSaver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75F26495F5;
 				INFOPLIST_FILE = LifeSaver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
