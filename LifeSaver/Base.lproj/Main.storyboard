@@ -17,54 +17,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="nON-Xj-80j">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haB-Am-tmg" customClass="UIRoundButton" customModule="LifeSaver" customModuleProvider="target">
-                                <rect key="frame" x="100" y="492" width="175" height="35"/>
+                                <rect key="frame" x="105" y="494" width="165" height="33"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="5H6-gY-43v"/>
+                                    <constraint firstAttribute="height" constant="33" id="5H6-gY-43v"/>
                                     <constraint firstAttribute="width" secondItem="haB-Am-tmg" secondAttribute="height" multiplier="5:1" id="McI-fm-eQw"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.99051032169999997" green="1" blue="0.99238166719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxz-xx-Y44" customClass="BorderButton" customModule="LifeSaver" customModuleProvider="target">
-                                <rect key="frame" x="100" y="542" width="175" height="35"/>
+                                <rect key="frame" x="105" y="537" width="165" height="33"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="djQ-hw-PQI"/>
+                                    <constraint firstAttribute="height" constant="33" id="djQ-hw-PQI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="Signup">
                                     <color key="titleColor" red="0.99051032169999997" green="1" blue="0.99238166719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life Saver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNy-u7-Hn0">
-                                <rect key="frame" x="100" y="50" width="175" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="175" id="Fnc-Nj-DXn"/>
-                                    <constraint firstAttribute="height" constant="100" id="iGl-da-GKe"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="26"/>
-                                <color key="textColor" red="0.91721988341968907" green="0.033489343199884815" blue="0.011312725180058027" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.80883662560000003" green="0.031332865289999998" blue="0.015749690479999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="shadowOffset" width="2" height="2"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo2" translatesAutoresizingMaskIntoConstraints="NO" id="pj0-9X-Jxw">
-                                <rect key="frame" x="77.5" y="108" width="220" height="110"/>
+                                <rect key="frame" x="67.5" y="140" width="240" height="120"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="110" id="WLA-Fm-Dy0"/>
+                                    <constraint firstAttribute="height" constant="120" id="WLA-Fm-Dy0"/>
                                     <constraint firstAttribute="width" secondItem="pj0-9X-Jxw" secondAttribute="height" multiplier="2:1" id="Zho-4L-R0u"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life Saver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNy-u7-Hn0">
+                                <rect key="frame" x="87.5" y="75" width="200" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Fnc-Nj-DXn"/>
+                                    <constraint firstAttribute="height" constant="110" id="iGl-da-GKe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
+                                <color key="textColor" red="0.91721988341968907" green="0.033489343199884815" blue="0.011312725180058027" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.80883662560000003" green="0.031332865289999998" blue="0.015749690479999998" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sNy-u7-Hn0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="06t-hE-e1M"/>
-                            <constraint firstItem="pj0-9X-Jxw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="88" id="JO9-Fx-NHG"/>
+                            <constraint firstItem="sNy-u7-Hn0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="06t-hE-e1M"/>
+                            <constraint firstItem="nON-Xj-80j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ad2-he-5zw"/>
+                            <constraint firstItem="pj0-9X-Jxw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="JO9-Fx-NHG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="haB-Am-tmg" secondAttribute="bottom" constant="140" id="LIF-eh-83Z"/>
-                            <constraint firstItem="Lxz-xx-Y44" firstAttribute="top" secondItem="haB-Am-tmg" secondAttribute="bottom" constant="15" id="O87-VS-ahL"/>
-                            <constraint firstItem="sNy-u7-Hn0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="chu-pt-dVb"/>
+                            <constraint firstItem="Lxz-xx-Y44" firstAttribute="top" secondItem="haB-Am-tmg" secondAttribute="bottom" constant="10" id="O87-VS-ahL"/>
+                            <constraint firstItem="sNy-u7-Hn0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aCZ-Mc-Htw"/>
+                            <constraint firstItem="nON-Xj-80j" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bwW-P5-HTC"/>
+                            <constraint firstItem="nON-Xj-80j" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cL8-tx-Kyk"/>
+                            <constraint firstItem="nON-Xj-80j" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dUz-b6-4RR"/>
                             <constraint firstItem="pj0-9X-Jxw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="doW-q3-Myi"/>
                             <constraint firstItem="Lxz-xx-Y44" firstAttribute="width" secondItem="Lxz-xx-Y44" secondAttribute="height" multiplier="5:1" id="kDv-lR-Cou"/>
                             <constraint firstItem="haB-Am-tmg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mr9-35-QqY"/>
@@ -79,6 +86,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background" width="414" height="736"/>
         <image name="logo2" width="500" height="343.5"/>
     </resources>
 </document>

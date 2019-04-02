@@ -25,7 +25,7 @@ class UIRoundButton: UIButton {
     func customizeView(){
         
         layer.cornerRadius = 15
-        backgroundColor = #colorLiteral(red: 0.9536512306, green: 0.03694272069, blue: 0.01856952471, alpha: 1)
+        backgroundColor = #colorLiteral(red: 0.8756274288, green: 0.03197072807, blue: 0.01079973585, alpha: 1)
         self.setTitleColor(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0), for: .normal)
     }
 
