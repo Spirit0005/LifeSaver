@@ -9,19 +9,19 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LifeSaver" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="LifeSaver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="nON-Xj-80j">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="nON-Xj-80j">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haB-Am-tmg" customClass="UIRoundButton" customModule="LifeSaver" customModuleProvider="target">
-                                <rect key="frame" x="105" y="494" width="165" height="33"/>
+                                <rect key="frame" x="105" y="481" width="165" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="5H6-gY-43v"/>
                                     <constraint firstAttribute="width" secondItem="haB-Am-tmg" secondAttribute="height" multiplier="5:1" id="McI-fm-eQw"/>
@@ -32,7 +32,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxz-xx-Y44" customClass="BorderButton" customModule="LifeSaver" customModuleProvider="target">
-                                <rect key="frame" x="105" y="537" width="165" height="33"/>
+                                <rect key="frame" x="105" y="524" width="165" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="djQ-hw-PQI"/>
                                 </constraints>
@@ -54,33 +54,33 @@
                                 <size key="shadowOffset" width="-2" height="2"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo2" translatesAutoresizingMaskIntoConstraints="NO" id="pj0-9X-Jxw">
-                                <rect key="frame" x="67.5" y="140" width="240" height="120"/>
+                                <rect key="frame" x="77.5" y="140" width="220" height="110"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="WLA-Fm-Dy0"/>
+                                    <constraint firstAttribute="height" constant="110" id="WLA-Fm-Dy0"/>
                                     <constraint firstAttribute="width" secondItem="pj0-9X-Jxw" secondAttribute="height" multiplier="2:1" id="Zho-4L-R0u"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="feK-33-3jm" customClass="CustomTextField" customModule="LifeSaver" customModuleProvider="target">
-                                <rect key="frame" x="70" y="310" width="235" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="feK-33-3jm" customClass="CustomTextField" customModule="LifeSaver" customModuleProvider="target">
+                                <rect key="frame" x="80" y="325" width="225" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" textContentType="email"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="HES-Q4-3v2" customClass="CustomTextField" customModule="LifeSaver" customModuleProvider="target">
-                                <rect key="frame" x="70" y="365" width="235" height="30"/>
+                                <rect key="frame" x="80" y="375" width="225" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="H4w-4K-2IA">
-                                <rect key="frame" x="45" y="315" width="20" height="20"/>
+                                <rect key="frame" x="55" y="330" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="H4w-4K-2IA" secondAttribute="height" multiplier="1:1" id="a2c-dg-qed"/>
                                     <constraint firstAttribute="height" constant="20" id="fje-AF-GJv"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="password" translatesAutoresizingMaskIntoConstraints="NO" id="0bD-hn-bHE">
-                                <rect key="frame" x="45" y="370" width="20" height="20"/>
+                                <rect key="frame" x="55" y="380" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0bD-hn-bHE" secondAttribute="height" multiplier="1:1" id="8Ep-E2-XcI"/>
                                     <constraint firstAttribute="height" constant="20" id="APs-6m-4D9"/>
@@ -94,10 +94,10 @@
                             <constraint firstItem="HES-Q4-3v2" firstAttribute="leading" secondItem="0bD-hn-bHE" secondAttribute="trailing" constant="5" id="9F4-Fr-y45"/>
                             <constraint firstItem="nON-Xj-80j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ad2-he-5zw"/>
                             <constraint firstItem="pj0-9X-Jxw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="JO9-Fx-NHG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="haB-Am-tmg" secondAttribute="bottom" constant="140" id="LIF-eh-83Z"/>
                             <constraint firstItem="Lxz-xx-Y44" firstAttribute="top" secondItem="haB-Am-tmg" secondAttribute="bottom" constant="10" id="O87-VS-ahL"/>
-                            <constraint firstItem="feK-33-3jm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="OTX-Mx-uAI"/>
-                            <constraint firstItem="HES-Q4-3v2" firstAttribute="top" secondItem="feK-33-3jm" secondAttribute="bottom" constant="25" id="Uss-b5-exe"/>
+                            <constraint firstItem="feK-33-3jm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="OTX-Mx-uAI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lxz-xx-Y44" secondAttribute="bottom" constant="110" id="SWG-dB-E5G"/>
+                            <constraint firstItem="HES-Q4-3v2" firstAttribute="top" secondItem="feK-33-3jm" secondAttribute="bottom" constant="20" id="Uss-b5-exe"/>
                             <constraint firstItem="sNy-u7-Hn0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aCZ-Mc-Htw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="feK-33-3jm" secondAttribute="trailing" constant="70" id="bX8-uF-SpY"/>
                             <constraint firstItem="nON-Xj-80j" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bwW-P5-HTC"/>
@@ -105,13 +105,12 @@
                             <constraint firstItem="nON-Xj-80j" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dUz-b6-4RR"/>
                             <constraint firstItem="HES-Q4-3v2" firstAttribute="trailing" secondItem="feK-33-3jm" secondAttribute="trailing" id="dd9-7S-6rz"/>
                             <constraint firstItem="pj0-9X-Jxw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="doW-q3-Myi"/>
-                            <constraint firstItem="feK-33-3jm" firstAttribute="top" secondItem="pj0-9X-Jxw" secondAttribute="bottom" constant="50" id="fv0-Ij-aGQ"/>
+                            <constraint firstItem="feK-33-3jm" firstAttribute="top" secondItem="pj0-9X-Jxw" secondAttribute="bottom" constant="75" id="fv0-Ij-aGQ"/>
                             <constraint firstItem="HES-Q4-3v2" firstAttribute="leading" secondItem="feK-33-3jm" secondAttribute="leading" id="gtB-IW-9XC"/>
                             <constraint firstItem="Lxz-xx-Y44" firstAttribute="width" secondItem="Lxz-xx-Y44" secondAttribute="height" multiplier="5:1" id="kDv-lR-Cou"/>
                             <constraint firstItem="haB-Am-tmg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mr9-35-QqY"/>
                             <constraint firstItem="0bD-hn-bHE" firstAttribute="width" secondItem="0bD-hn-bHE" secondAttribute="height" multiplier="1:1" id="oy3-oi-Lp4"/>
                             <constraint firstItem="H4w-4K-2IA" firstAttribute="centerY" secondItem="feK-33-3jm" secondAttribute="centerY" id="qCH-HB-YGo"/>
-                            <constraint firstItem="feK-33-3jm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rWx-1Q-dPB"/>
                             <constraint firstItem="Lxz-xx-Y44" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rZg-r0-u1s"/>
                             <constraint firstItem="0bD-hn-bHE" firstAttribute="centerY" secondItem="HES-Q4-3v2" secondAttribute="centerY" id="sZ9-Gn-n78"/>
                         </constraints>
@@ -122,9 +121,40 @@
             </objects>
             <point key="canvasLocation" x="40.799999999999997" y="26.53673163418291"/>
         </scene>
+        <!--Signup View Controller-->
+        <scene sceneID="C2C-4j-ZSy">
+            <objects>
+                <viewController id="eTY-1W-zPI" customClass="SignupViewController" customModule="LifeSaver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PBQ-Gc-0jf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mid-2P-JMz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bck" translatesAutoresizingMaskIntoConstraints="NO" id="A9I-32-22L">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mid-2P-JMz" firstAttribute="trailing" secondItem="Kac-Hm-0K3" secondAttribute="trailing" id="5iY-Yp-iUE"/>
+                            <constraint firstItem="Mid-2P-JMz" firstAttribute="leading" secondItem="Kac-Hm-0K3" secondAttribute="leading" id="9tp-uW-Puf"/>
+                            <constraint firstItem="Mid-2P-JMz" firstAttribute="bottom" secondItem="Kac-Hm-0K3" secondAttribute="bottom" id="Av7-Ac-tWd"/>
+                            <constraint firstItem="Mid-2P-JMz" firstAttribute="top" secondItem="PBQ-Gc-0jf" secondAttribute="top" id="mgy-wY-lKR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kac-Hm-0K3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YAu-PM-YQN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="800.79999999999995" y="26.53673163418291"/>
+        </scene>
     </scenes>
     <resources>
         <image name="background" width="414" height="736"/>
+        <image name="bck" width="414" height="736"/>
         <image name="logo2" width="500" height="343.5"/>
         <image name="password" width="192" height="192"/>
         <image name="user" width="192" height="189.5"/>

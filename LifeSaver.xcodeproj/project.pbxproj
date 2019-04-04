@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BB0424EC2253EA01008F3401 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0424EB2253EA01008F3401 /* CustomTextField.swift */; };
+		BB0424EF2255DA96008F3401 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0424EE2255DA96008F3401 /* SignupViewController.swift */; };
 		BBACD54D22528FA000FE8EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD54C22528FA000FE8EBA /* AppDelegate.swift */; };
-		BBACD54F22528FA000FE8EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD54E22528FA000FE8EBA /* ViewController.swift */; };
+		BBACD54F22528FA000FE8EBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD54E22528FA000FE8EBA /* LoginViewController.swift */; };
 		BBACD55222528FA000FE8EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBACD55022528FA000FE8EBA /* Main.storyboard */; };
 		BBACD55422528FA400FE8EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBACD55322528FA400FE8EBA /* Assets.xcassets */; };
 		BBACD55722528FA400FE8EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBACD55522528FA400FE8EBA /* LaunchScreen.storyboard */; };
@@ -38,9 +39,10 @@
 
 /* Begin PBXFileReference section */
 		BB0424EB2253EA01008F3401 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BB0424EE2255DA96008F3401 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		BBACD54922528FA000FE8EBA /* LifeSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBACD54C22528FA000FE8EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BBACD54E22528FA000FE8EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBACD54E22528FA000FE8EBA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BBACD55122528FA000FE8EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBACD55322528FA400FE8EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBACD55622528FA400FE8EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB0424ED2255D9DE008F3401 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBACD54E22528FA000FE8EBA /* LoginViewController.swift */,
+				BB0424EE2255DA96008F3401 /* SignupViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BBACD54022528FA000FE8EBA = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +114,9 @@
 		BBACD54B22528FA000FE8EBA /* LifeSaver */ = {
 			isa = PBXGroup;
 			children = (
+				BB0424ED2255D9DE008F3401 /* Controller */,
 				BBACD57A225292DD00FE8EBA /* View */,
 				BBACD54C22528FA000FE8EBA /* AppDelegate.swift */,
-				BBACD54E22528FA000FE8EBA /* ViewController.swift */,
 				BBACD55022528FA000FE8EBA /* Main.storyboard */,
 				BBACD55322528FA400FE8EBA /* Assets.xcassets */,
 				BBACD55522528FA400FE8EBA /* LaunchScreen.storyboard */,
@@ -273,9 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBACD54F22528FA000FE8EBA /* ViewController.swift in Sources */,
+				BBACD54F22528FA000FE8EBA /* LoginViewController.swift in Sources */,
 				BBACD54D22528FA000FE8EBA /* AppDelegate.swift in Sources */,
 				BBACD57C2252931D00FE8EBA /* UIRoundButton.swift in Sources */,
+				BB0424EF2255DA96008F3401 /* SignupViewController.swift in Sources */,
 				BBACD57E2252988A00FE8EBA /* BorderButton.swift in Sources */,
 				BB0424EC2253EA01008F3401 /* CustomTextField.swift in Sources */,
 			);
