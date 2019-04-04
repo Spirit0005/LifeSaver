@@ -38,7 +38,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="Signup">
-                                    <color key="titleColor" red="0.99051032169999997" green="1" blue="0.99238166719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.91721988340000005" green="0.0334893432" blue="0.01131272518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life Saver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNy-u7-Hn0">
@@ -129,20 +129,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mid-2P-JMz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bck" translatesAutoresizingMaskIntoConstraints="NO" id="A9I-32-22L">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </scrollView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bck" translatesAutoresizingMaskIntoConstraints="NO" id="A9I-32-22L">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register Yourself" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="myW-n6-ryT">
+                                <rect key="frame" x="120" y="50" width="135" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="jo0-q0-xWb">
+                                <rect key="frame" x="70" y="138.5" width="235" height="238"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="v2g-PV-9eP" customClass="CustomTextField" customModule="LifeSaver" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="235" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" enablesReturnKeyAutomatically="YES" textContentType="name"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8Vf-1r-d36" customClass="CustomTextField" customModule="LifeSaver" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="52" width="235" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" enablesReturnKeyAutomatically="YES" textContentType="name"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="13O-oV-VS7" customClass="CustomTextField" customModule="LifeSaver" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="104" width="235" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" textContentType="email"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="KKT-Df-gPL" customClass="CustomTextField" customModule="LifeSaver" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="156" width="235" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Re-type Password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="V6S-VX-saA" customClass="CustomTextField" customModule="LifeSaver" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="208" width="235" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5l2-vc-kwS" customClass="BorderButton" customModule="LifeSaver" customModuleProvider="target">
+                                <rect key="frame" x="105" y="554" width="165" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Brk-qL-7DZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="Signup">
+                                    <color key="titleColor" red="0.99051032169999997" green="1" blue="0.99238166719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Mid-2P-JMz" firstAttribute="trailing" secondItem="Kac-Hm-0K3" secondAttribute="trailing" id="5iY-Yp-iUE"/>
-                            <constraint firstItem="Mid-2P-JMz" firstAttribute="leading" secondItem="Kac-Hm-0K3" secondAttribute="leading" id="9tp-uW-Puf"/>
-                            <constraint firstItem="Mid-2P-JMz" firstAttribute="bottom" secondItem="Kac-Hm-0K3" secondAttribute="bottom" id="Av7-Ac-tWd"/>
-                            <constraint firstItem="Mid-2P-JMz" firstAttribute="top" secondItem="PBQ-Gc-0jf" secondAttribute="top" id="mgy-wY-lKR"/>
+                            <constraint firstItem="5l2-vc-kwS" firstAttribute="centerX" secondItem="PBQ-Gc-0jf" secondAttribute="centerX" id="0gN-4c-lSb"/>
+                            <constraint firstItem="jo0-q0-xWb" firstAttribute="leading" secondItem="Kac-Hm-0K3" secondAttribute="leading" constant="70" id="3Sf-S5-N0C"/>
+                            <constraint firstItem="5l2-vc-kwS" firstAttribute="width" secondItem="5l2-vc-kwS" secondAttribute="height" multiplier="5:1" id="BSi-Vx-cu6"/>
+                            <constraint firstItem="jo0-q0-xWb" firstAttribute="centerX" secondItem="PBQ-Gc-0jf" secondAttribute="centerX" id="Htc-9N-sfK"/>
+                            <constraint firstItem="Kac-Hm-0K3" firstAttribute="bottom" secondItem="5l2-vc-kwS" secondAttribute="bottom" constant="80" id="HxA-Kj-ChJ"/>
+                            <constraint firstItem="A9I-32-22L" firstAttribute="bottom" secondItem="Kac-Hm-0K3" secondAttribute="bottom" id="YHC-D7-hA0"/>
+                            <constraint firstItem="jo0-q0-xWb" firstAttribute="top" secondItem="myW-n6-ryT" secondAttribute="bottom" constant="65" id="YUF-vg-SKW"/>
+                            <constraint firstItem="myW-n6-ryT" firstAttribute="centerX" secondItem="PBQ-Gc-0jf" secondAttribute="centerX" id="cLd-so-i6i"/>
+                            <constraint firstItem="myW-n6-ryT" firstAttribute="top" secondItem="Kac-Hm-0K3" secondAttribute="top" constant="30" id="dl1-42-cag"/>
+                            <constraint firstItem="A9I-32-22L" firstAttribute="leading" secondItem="Kac-Hm-0K3" secondAttribute="leading" id="ipd-gS-3u1"/>
+                            <constraint firstItem="A9I-32-22L" firstAttribute="top" secondItem="PBQ-Gc-0jf" secondAttribute="top" id="l57-zx-pTS"/>
+                            <constraint firstItem="A9I-32-22L" firstAttribute="trailing" secondItem="Kac-Hm-0K3" secondAttribute="trailing" id="ogP-ic-L9n"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kac-Hm-0K3"/>
                     </view>
