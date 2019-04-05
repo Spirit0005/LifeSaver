@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BB0424EC2253EA01008F3401 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0424EB2253EA01008F3401 /* CustomTextField.swift */; };
 		BB0424EF2255DA96008F3401 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0424EE2255DA96008F3401 /* SignupViewController.swift */; };
+		BB04CF962255FF9B00C7A12A /* icon 3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB04CF952255FF9A00C7A12A /* icon 3x.png */; };
 		BBACD54D22528FA000FE8EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD54C22528FA000FE8EBA /* AppDelegate.swift */; };
 		BBACD54F22528FA000FE8EBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD54E22528FA000FE8EBA /* LoginViewController.swift */; };
 		BBACD55222528FA000FE8EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBACD55022528FA000FE8EBA /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 		BBACD56D22528FA400FE8EBA /* LifeSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD56C22528FA400FE8EBA /* LifeSaverUITests.swift */; };
 		BBACD57C2252931D00FE8EBA /* UIRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD57B2252931D00FE8EBA /* UIRoundButton.swift */; };
 		BBACD57E2252988A00FE8EBA /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD57D2252988A00FE8EBA /* BorderButton.swift */; };
+		BBC69C4622560C35004A8E49 /* icon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC69C4522560C35004A8E49 /* icon3x.png */; };
+		BBC69C4822561575004A8E49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBC69C4722561575004A8E49 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 /* Begin PBXFileReference section */
 		BB0424EB2253EA01008F3401 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BB0424EE2255DA96008F3401 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		BB04CF952255FF9A00C7A12A /* icon 3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon 3x.png"; path = "../../../../../../../Volumes/VMware Shared Folders/Shared Folder/Blood Bank Assets/icon 3x.png"; sourceTree = "<group>"; };
 		BBACD54922528FA000FE8EBA /* LifeSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBACD54C22528FA000FE8EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBACD54E22528FA000FE8EBA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		BBACD56E22528FA400FE8EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBACD57B2252931D00FE8EBA /* UIRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundButton.swift; sourceTree = "<group>"; };
 		BBACD57D2252988A00FE8EBA /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		BBC69C4522560C35004A8E49 /* icon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon3x.png; path = "../../../../../../Volumes/VMware Shared Folders/Shared Folder/Blood Bank Assets/icon3x.png"; sourceTree = "<group>"; };
+		BBC69C4722561575004A8E49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 				BBACD55322528FA400FE8EBA /* Assets.xcassets */,
 				BBACD55522528FA400FE8EBA /* LaunchScreen.storyboard */,
 				BBACD55822528FA400FE8EBA /* Info.plist */,
+				BBC69C4522560C35004A8E49 /* icon3x.png */,
 			);
 			path = LifeSaver;
 			sourceTree = "<group>";
@@ -130,6 +137,7 @@
 			children = (
 				BBACD56122528FA400FE8EBA /* LifeSaverTests.swift */,
 				BBACD56322528FA400FE8EBA /* Info.plist */,
+				BBC69C4722561575004A8E49 /* GoogleService-Info.plist */,
 			);
 			path = LifeSaverTests;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 		BBACD57A225292DD00FE8EBA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BB04CF952255FF9A00C7A12A /* icon 3x.png */,
 				BBACD57B2252931D00FE8EBA /* UIRoundButton.swift */,
 				BBACD57D2252988A00FE8EBA /* BorderButton.swift */,
 				BB0424EB2253EA01008F3401 /* CustomTextField.swift */,
@@ -257,9 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB04CF962255FF9B00C7A12A /* icon 3x.png in Resources */,
 				BBACD55722528FA400FE8EBA /* LaunchScreen.storyboard in Resources */,
 				BBACD55422528FA400FE8EBA /* Assets.xcassets in Resources */,
 				BBACD55222528FA000FE8EBA /* Main.storyboard in Resources */,
+				BBC69C4622560C35004A8E49 /* icon3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC69C4822561575004A8E49 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

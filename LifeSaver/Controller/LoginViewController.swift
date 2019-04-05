@@ -8,13 +8,36 @@
 
 import UIKit
 
+extension UIViewController{
+    
+    func hideKeyboard(){
+        
+        let Tap:UITapGestureRecognizer = UITapGestureRecognizer(target:self, action:#selector(dismissKeyboard))
+        
+        view.addGestureRecognizer(Tap)
+    }
+    
+    @objc func dismissKeyboard(){
+        view.endEditing(true)
+    }
+    
+}
+
 class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.hideKeyboard()
     }
+    
 
-
+    @IBAction func loginBtn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func signupBtn(_ sender: Any) {
+        
+        performSegue(withIdentifier:"signupSegue", sender: nil)
+    }
 }
 

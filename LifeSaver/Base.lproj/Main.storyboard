@@ -30,6 +30,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.99051032169999997" green="1" blue="0.99238166719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nfg-MP-bqT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxz-xx-Y44" customClass="BorderButton" customModule="LifeSaver" customModuleProvider="target">
                                 <rect key="frame" x="105" y="524" width="165" height="33"/>
@@ -40,6 +43,9 @@
                                 <state key="normal" title="Signup">
                                     <color key="titleColor" red="0.91721988340000005" green="0.0334893432" blue="0.01131272518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signupBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yzB-WM-BdH"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life Saver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNy-u7-Hn0">
                                 <rect key="frame" x="87.5" y="75" width="200" height="110"/>
@@ -116,6 +122,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="eTY-1W-zPI" kind="show" identifier="signupSegue" id="dsc-PZ-uMv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -205,6 +214,73 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YAu-PM-YQN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="800.79999999999995" y="26.53673163418291"/>
+        </scene>
+        <!--Chats-->
+        <scene sceneID="2aL-ou-852">
+            <objects>
+                <viewController id="GVZ-3d-brC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tMw-iq-k4u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LIV-zL-Wj1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chats" id="NEO-mI-lVU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rEG-UU-7A0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1129" y="860"/>
+        </scene>
+        <!--Notifications-->
+        <scene sceneID="BHT-IX-Ocy">
+            <objects>
+                <viewController id="koG-we-Thi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wpf-Tt-hRI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mTX-jH-UDs"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Notifications" id="sda-Qf-Qj5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C0M-w3-mfM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2647" y="860"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="Dgz-bW-7nI">
+            <objects>
+                <viewController id="7y1-68-ydM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hXu-Yd-3H9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TOf-15-9gf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" id="Hxi-dS-06O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u48-jJ-2Ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1884" y="860"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="jHg-mj-fuK">
+            <objects>
+                <tabBarController id="RaE-Hw-g7t" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TGF-wb-nB9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7y1-68-ydM" kind="relationship" relationship="viewControllers" id="6Hv-94-iar"/>
+                        <segue destination="GVZ-3d-brC" kind="relationship" relationship="viewControllers" id="dab-gA-xW9"/>
+                        <segue destination="koG-we-Thi" kind="relationship" relationship="viewControllers" id="eK1-gN-yuX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J2F-sn-MQR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1730" y="15"/>
         </scene>
     </scenes>
     <resources>
