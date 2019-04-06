@@ -1,0 +1,6 @@
+framework module Pods_LifeSaverTests {
+  umbrella header "Pods-LifeSaverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
