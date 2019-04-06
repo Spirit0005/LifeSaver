@@ -243,7 +243,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rEG-UU-7A0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1129" y="860"/>
+            <point key="canvasLocation" x="697" y="860"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BHT-IX-Ocy">
@@ -259,7 +259,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C0M-w3-mfM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2647" y="860"/>
+            <point key="canvasLocation" x="2918" y="860"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dgz-bW-7nI">
@@ -275,15 +275,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qba-OE-jQ6">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bck1" translatesAutoresizingMaskIntoConstraints="NO" id="ZzY-da-1H5">
-                                                <rect key="frame" x="0.0" y="-35" width="375" height="736"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bck1" translatesAutoresizingMaskIntoConstraints="NO" id="ZzY-da-1H5">
+                                                <rect key="frame" x="0.0" y="115" width="375" height="736"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="ZzY-da-1H5" firstAttribute="leading" secondItem="qba-OE-jQ6" secondAttribute="leading" id="4YH-nY-BW9"/>
-                                            <constraint firstItem="ZzY-da-1H5" firstAttribute="top" secondItem="qba-OE-jQ6" secondAttribute="top" constant="-35" id="MfW-ku-yHz"/>
-                                            <constraint firstAttribute="trailing" secondItem="ZzY-da-1H5" secondAttribute="trailing" id="eH6-cw-hec"/>
                                             <constraint firstAttribute="height" constant="1000" id="hUW-vy-ImL"/>
                                         </constraints>
                                     </view>
@@ -306,12 +304,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TOf-15-9gf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="profile" id="Hxi-dS-06O"/>
+                    <navigationItem key="navigationItem" id="7wb-dA-bdv"/>
                     <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u48-jJ-2Ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1884" y="859.07046476761627"/>
+            <point key="canvasLocation" x="1806" y="1787"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="jHg-mj-fuK">
@@ -323,7 +321,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="7y1-68-ydM" kind="relationship" relationship="viewControllers" id="6Hv-94-iar"/>
+                        <segue destination="Fv7-hO-Zwe" kind="relationship" relationship="viewControllers" id="6Hv-94-iar"/>
                         <segue destination="GVZ-3d-brC" kind="relationship" relationship="viewControllers" id="dab-gA-xW9"/>
                         <segue destination="koG-we-Thi" kind="relationship" relationship="viewControllers" id="eK1-gN-yuX"/>
                     </connections>
@@ -331,6 +329,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J2F-sn-MQR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1730" y="15"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4f0-aV-hy1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Fv7-hO-Zwe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="profile" id="Hxi-dS-06O"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VCE-Wv-xhu">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7y1-68-ydM" kind="relationship" relationship="rootViewController" id="AqX-6L-4u8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="peb-4a-4Uf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807" y="860"/>
         </scene>
     </scenes>
     <resources>

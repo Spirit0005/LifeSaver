@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import FirebaseAuth
+import Firebase
 
 
 class SignupViewController: UIViewController {
@@ -37,11 +37,22 @@ class SignupViewController: UIViewController {
         guard let rePass = RePassword.text else {return}
 
         
-        user.createUser(withEmail: id, password: pass, completion:nil)
-        
-        
-            performSegue(withIdentifier:"main2", sender: nil)
+        user.createUser(withEmail: id, password: pass){ result, error in
             
+            if error == nil && result != nil{
+                print("user created")
+                self.performSegue(withIdentifier:"main2", sender: nil)
+
+            }else{
+                print("user not created")
+                print("error : \(error?.localizedDescription)")
+                
+            }
+            
+            
+        }
+        
+        
     }
     
    
