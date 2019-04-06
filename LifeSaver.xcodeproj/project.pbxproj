@@ -15,6 +15,9 @@
 		BB34053722590629006ECAFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB34053622590629006ECAFA /* GoogleService-Info.plist */; };
 		BB34053822590629006ECAFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB34053622590629006ECAFA /* GoogleService-Info.plist */; };
 		BB34053922590629006ECAFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB34053622590629006ECAFA /* GoogleService-Info.plist */; };
+		BB34054022593BE0006ECAFA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34053F22593BE0006ECAFA /* User.swift */; };
+		BB34054122593BE0006ECAFA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34053F22593BE0006ECAFA /* User.swift */; };
+		BB34054222593BE0006ECAFA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34053F22593BE0006ECAFA /* User.swift */; };
 		BBACD54D22528FA000FE8EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD54C22528FA000FE8EBA /* AppDelegate.swift */; };
 		BBACD54F22528FA000FE8EBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD54E22528FA000FE8EBA /* LoginViewController.swift */; };
 		BBACD55222528FA000FE8EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBACD55022528FA000FE8EBA /* Main.storyboard */; };
@@ -59,6 +62,7 @@
 		BB0424EE2255DA96008F3401 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		BB04CF952255FF9A00C7A12A /* icon 3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon 3x.png"; path = "../../../../../../../Volumes/VMware Shared Folders/Shared Folder/Blood Bank Assets/icon 3x.png"; sourceTree = "<group>"; };
 		BB34053622590629006ECAFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB34053F22593BE0006ECAFA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BBACD54922528FA000FE8EBA /* LifeSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBACD54C22528FA000FE8EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBACD54E22528FA000FE8EBA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +130,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		BB34053A22593B8F006ECAFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB34053F22593BE0006ECAFA /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BBACD54022528FA000FE8EBA = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +163,7 @@
 		BBACD54B22528FA000FE8EBA /* LifeSaver */ = {
 			isa = PBXGroup;
 			children = (
+				BB34053A22593B8F006ECAFA /* Model */,
 				BB0424ED2255D9DE008F3401 /* Controller */,
 				BBACD57A225292DD00FE8EBA /* View */,
 				BBACD54C22528FA000FE8EBA /* AppDelegate.swift */,
@@ -472,6 +485,7 @@
 				BB0424EF2255DA96008F3401 /* SignupViewController.swift in Sources */,
 				BBACD57E2252988A00FE8EBA /* BorderButton.swift in Sources */,
 				BB0424EC2253EA01008F3401 /* CustomTextField.swift in Sources */,
+				BB34054022593BE0006ECAFA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB34054122593BE0006ECAFA /* User.swift in Sources */,
 				BBACD56222528FA400FE8EBA /* LifeSaverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB34054222593BE0006ECAFA /* User.swift in Sources */,
 				BBACD56D22528FA400FE8EBA /* LifeSaverUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

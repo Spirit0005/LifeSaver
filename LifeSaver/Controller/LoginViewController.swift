@@ -30,7 +30,11 @@ class LoginViewController: UIViewController {
         self.hideKeyboard()
     }
     
-
+    @IBOutlet weak var email: CustomTextField!
+    
+    @IBOutlet weak var password: CustomTextField!
+    
+    
     @IBAction func LoginBtn(_ sender: Any) {
         
         performSegue(withIdentifier:"main1", sender: nil)

@@ -123,6 +123,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="email" destination="feK-33-3jm" id="OOj-H0-oMz"/>
+                        <outlet property="password" destination="HES-Q4-3v2" id="G8u-To-tmO"/>
                         <segue destination="eTY-1W-zPI" kind="show" identifier="signupSegue" id="dsc-PZ-uMv"/>
                         <segue destination="RaE-Hw-g7t" kind="show" identifier="main1" id="udJ-5y-QtR"/>
                     </connections>
@@ -215,6 +217,11 @@
                         <viewLayoutGuide key="safeArea" id="Kac-Hm-0K3"/>
                     </view>
                     <connections>
+                        <outlet property="Email" destination="13O-oV-VS7" id="46B-oY-z1c"/>
+                        <outlet property="FirstName" destination="v2g-PV-9eP" id="VsF-mW-pCt"/>
+                        <outlet property="LastName" destination="8Vf-1r-d36" id="zuy-Ez-vDk"/>
+                        <outlet property="Password" destination="KKT-Df-gPL" id="fiI-hJ-Ofs"/>
+                        <outlet property="RePassword" destination="V6S-VX-saA" id="oBi-dB-wMB"/>
                         <segue destination="RaE-Hw-g7t" kind="show" identifier="main2" id="hkZ-bf-o2Z"/>
                     </connections>
                 </viewController>
@@ -338,6 +345,6 @@
         <image name="user" width="192" height="189.5"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="udJ-5y-QtR"/>
+        <segue reference="hkZ-bf-o2Z"/>
     </inferredMetricsTieBreakers>
 </document>
