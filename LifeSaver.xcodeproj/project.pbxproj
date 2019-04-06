@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23B0BBE3B20FBE2F5F9976C7 /* Pods_LifeSaverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C17B39326C11F703B8C10B /* Pods_LifeSaverTests.framework */; };
+		A0CE065AA252A7BF2DF58E84 /* Pods_LifeSaverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D906F29D9DD607F8C89A8FE /* Pods_LifeSaverUITests.framework */; };
 		BB0424EC2253EA01008F3401 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0424EB2253EA01008F3401 /* CustomTextField.swift */; };
 		BB0424EF2255DA96008F3401 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0424EE2255DA96008F3401 /* SignupViewController.swift */; };
 		BB04CF962255FF9B00C7A12A /* icon 3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB04CF952255FF9A00C7A12A /* icon 3x.png */; };
+		BB34053722590629006ECAFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB34053622590629006ECAFA /* GoogleService-Info.plist */; };
+		BB34053822590629006ECAFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB34053622590629006ECAFA /* GoogleService-Info.plist */; };
+		BB34053922590629006ECAFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB34053622590629006ECAFA /* GoogleService-Info.plist */; };
 		BBACD54D22528FA000FE8EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD54C22528FA000FE8EBA /* AppDelegate.swift */; };
 		BBACD54F22528FA000FE8EBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD54E22528FA000FE8EBA /* LoginViewController.swift */; };
 		BBACD55222528FA000FE8EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBACD55022528FA000FE8EBA /* Main.storyboard */; };
@@ -21,6 +26,7 @@
 		BBACD57E2252988A00FE8EBA /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACD57D2252988A00FE8EBA /* BorderButton.swift */; };
 		BBC69C4622560C35004A8E49 /* icon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC69C4522560C35004A8E49 /* icon3x.png */; };
 		BBC69C4822561575004A8E49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBC69C4722561575004A8E49 /* GoogleService-Info.plist */; };
+		E183A11F8AAD7C32B5942591 /* Pods_LifeSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581F7C666830F85EE2155D2A /* Pods_LifeSaver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		119F54018CA4DD5BB4B9A754 /* Pods-LifeSaverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSaverTests.debug.xcconfig"; path = "Target Support Files/Pods-LifeSaverTests/Pods-LifeSaverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D906F29D9DD607F8C89A8FE /* Pods_LifeSaverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSaverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431B32E09199F71C35D9D246 /* Pods-LifeSaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSaver.debug.xcconfig"; path = "Target Support Files/Pods-LifeSaver/Pods-LifeSaver.debug.xcconfig"; sourceTree = "<group>"; };
+		57C17B39326C11F703B8C10B /* Pods_LifeSaverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSaverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		581F7C666830F85EE2155D2A /* Pods_LifeSaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6314A57B514F7B2408816A6C /* Pods-LifeSaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSaver.release.xcconfig"; path = "Target Support Files/Pods-LifeSaver/Pods-LifeSaver.release.xcconfig"; sourceTree = "<group>"; };
+		6AF5F5FF7416D017170A43BE /* Pods-LifeSaverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSaverUITests.debug.xcconfig"; path = "Target Support Files/Pods-LifeSaverUITests/Pods-LifeSaverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5900BEA5D4E795542D17710 /* Pods-LifeSaverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSaverTests.release.xcconfig"; path = "Target Support Files/Pods-LifeSaverTests/Pods-LifeSaverTests.release.xcconfig"; sourceTree = "<group>"; };
 		BB0424EB2253EA01008F3401 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BB0424EE2255DA96008F3401 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		BB04CF952255FF9A00C7A12A /* icon 3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon 3x.png"; path = "../../../../../../../Volumes/VMware Shared Folders/Shared Folder/Blood Bank Assets/icon 3x.png"; sourceTree = "<group>"; };
+		BB34053622590629006ECAFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BBACD54922528FA000FE8EBA /* LifeSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBACD54C22528FA000FE8EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBACD54E22528FA000FE8EBA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +76,7 @@
 		BBACD57D2252988A00FE8EBA /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		BBC69C4522560C35004A8E49 /* icon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon3x.png; path = "../../../../../../Volumes/VMware Shared Folders/Shared Folder/Blood Bank Assets/icon3x.png"; sourceTree = "<group>"; };
 		BBC69C4722561575004A8E49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E03AEA210F444A627FEE7803 /* Pods-LifeSaverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSaverUITests.release.xcconfig"; path = "Target Support Files/Pods-LifeSaverUITests/Pods-LifeSaverUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E183A11F8AAD7C32B5942591 /* Pods_LifeSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B0BBE3B20FBE2F5F9976C7 /* Pods_LifeSaverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CE065AA252A7BF2DF58E84 /* Pods_LifeSaverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8D2DCC8884D03F4D17D77EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				581F7C666830F85EE2155D2A /* Pods_LifeSaver.framework */,
+				57C17B39326C11F703B8C10B /* Pods_LifeSaverTests.framework */,
+				3D906F29D9DD607F8C89A8FE /* Pods_LifeSaverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB0424ED2255D9DE008F3401 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +133,8 @@
 				BBACD56022528FA400FE8EBA /* LifeSaverTests */,
 				BBACD56B22528FA400FE8EBA /* LifeSaverUITests */,
 				BBACD54A22528FA000FE8EBA /* Products */,
+				DDF30327686BF07BCD210C0F /* Pods */,
+				A8D2DCC8884D03F4D17D77EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +158,7 @@
 				BBACD55322528FA400FE8EBA /* Assets.xcassets */,
 				BBACD55522528FA400FE8EBA /* LaunchScreen.storyboard */,
 				BBACD55822528FA400FE8EBA /* Info.plist */,
+				BB34053622590629006ECAFA /* GoogleService-Info.plist */,
 				BBC69C4522560C35004A8E49 /* icon3x.png */,
 			);
 			path = LifeSaver;
@@ -162,6 +194,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DDF30327686BF07BCD210C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				431B32E09199F71C35D9D246 /* Pods-LifeSaver.debug.xcconfig */,
+				6314A57B514F7B2408816A6C /* Pods-LifeSaver.release.xcconfig */,
+				119F54018CA4DD5BB4B9A754 /* Pods-LifeSaverTests.debug.xcconfig */,
+				A5900BEA5D4E795542D17710 /* Pods-LifeSaverTests.release.xcconfig */,
+				6AF5F5FF7416D017170A43BE /* Pods-LifeSaverUITests.debug.xcconfig */,
+				E03AEA210F444A627FEE7803 /* Pods-LifeSaverUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBACD57122528FA400FE8EBA /* Build configuration list for PBXNativeTarget "LifeSaver" */;
 			buildPhases = (
+				95C25816CD74CE401C211875 /* [CP] Check Pods Manifest.lock */,
 				BBACD54522528FA000FE8EBA /* Sources */,
 				BBACD54622528FA000FE8EBA /* Frameworks */,
 				BBACD54722528FA000FE8EBA /* Resources */,
+				64FFEF1CEE5C7060D80E1C86 /* [CP] Embed Pods Frameworks */,
+				333F6BCF3AD8FB7B546D6199 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBACD57422528FA400FE8EBA /* Build configuration list for PBXNativeTarget "LifeSaverTests" */;
 			buildPhases = (
+				F2E867F49CACAFA7D0422AAF /* [CP] Check Pods Manifest.lock */,
 				BBACD55922528FA400FE8EBA /* Sources */,
 				BBACD55A22528FA400FE8EBA /* Frameworks */,
 				BBACD55B22528FA400FE8EBA /* Resources */,
@@ -204,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBACD57722528FA400FE8EBA /* Build configuration list for PBXNativeTarget "LifeSaverUITests" */;
 			buildPhases = (
+				749906359068938CFE375486 /* [CP] Check Pods Manifest.lock */,
 				BBACD56422528FA400FE8EBA /* Sources */,
 				BBACD56522528FA400FE8EBA /* Frameworks */,
 				BBACD56622528FA400FE8EBA /* Resources */,
@@ -271,6 +321,7 @@
 				BBACD55422528FA400FE8EBA /* Assets.xcassets in Resources */,
 				BBACD55222528FA000FE8EBA /* Main.storyboard in Resources */,
 				BBC69C4622560C35004A8E49 /* icon3x.png in Resources */,
+				BB34053722590629006ECAFA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBC69C4822561575004A8E49 /* GoogleService-Info.plist in Resources */,
+				BB34053822590629006ECAFA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,10 +338,128 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB34053922590629006ECAFA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		333F6BCF3AD8FB7B546D6199 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeSaver/Pods-LifeSaver-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeSaver/Pods-LifeSaver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64FFEF1CEE5C7060D80E1C86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeSaver/Pods-LifeSaver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeSaver/Pods-LifeSaver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		749906359068938CFE375486 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeSaverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C25816CD74CE401C211875 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeSaver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E867F49CACAFA7D0422AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeSaverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBACD54522528FA000FE8EBA /* Sources */ = {
@@ -474,6 +644,7 @@
 		};
 		BBACD57222528FA400FE8EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431B32E09199F71C35D9D246 /* Pods-LifeSaver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +664,7 @@
 		};
 		BBACD57322528FA400FE8EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6314A57B514F7B2408816A6C /* Pods-LifeSaver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +684,7 @@
 		};
 		BBACD57522528FA400FE8EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119F54018CA4DD5BB4B9A754 /* Pods-LifeSaverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +706,7 @@
 		};
 		BBACD57622528FA400FE8EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5900BEA5D4E795542D17710 /* Pods-LifeSaverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +728,7 @@
 		};
 		BBACD57822528FA400FE8EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF5F5FF7416D017170A43BE /* Pods-LifeSaverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,6 +749,7 @@
 		};
 		BBACD57922528FA400FE8EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03AEA210F444A627FEE7803 /* Pods-LifeSaverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

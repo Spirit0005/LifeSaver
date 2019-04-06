@@ -259,27 +259,52 @@
             <objects>
                 <viewController id="7y1-68-ydM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hXu-Yd-3H9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bck1" translatesAutoresizingMaskIntoConstraints="NO" id="jzZ-ol-E33">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ff-aE-JeI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qba-OE-jQ6">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bck1" translatesAutoresizingMaskIntoConstraints="NO" id="ZzY-da-1H5">
+                                                <rect key="frame" x="0.0" y="-35" width="375" height="736"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="ZzY-da-1H5" firstAttribute="leading" secondItem="qba-OE-jQ6" secondAttribute="leading" id="4YH-nY-BW9"/>
+                                            <constraint firstItem="ZzY-da-1H5" firstAttribute="top" secondItem="qba-OE-jQ6" secondAttribute="top" constant="-35" id="MfW-ku-yHz"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZzY-da-1H5" secondAttribute="trailing" id="eH6-cw-hec"/>
+                                            <constraint firstAttribute="height" constant="1000" id="hUW-vy-ImL"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qba-OE-jQ6" firstAttribute="leading" secondItem="2ff-aE-JeI" secondAttribute="leading" id="PA3-aI-jxa"/>
+                                    <constraint firstItem="qba-OE-jQ6" firstAttribute="top" secondItem="2ff-aE-JeI" secondAttribute="top" id="X1E-dJ-zqJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="qba-OE-jQ6" secondAttribute="bottom" id="bhn-Zh-knj"/>
+                                    <constraint firstAttribute="trailing" secondItem="qba-OE-jQ6" secondAttribute="trailing" id="bjo-sR-ZXw"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="jzZ-ol-E33" firstAttribute="top" secondItem="hXu-Yd-3H9" secondAttribute="top" id="Dc6-uX-IfW"/>
-                            <constraint firstItem="jzZ-ol-E33" firstAttribute="trailing" secondItem="TOf-15-9gf" secondAttribute="trailing" id="L2U-pu-GS7"/>
-                            <constraint firstAttribute="bottom" secondItem="jzZ-ol-E33" secondAttribute="bottom" id="hIQ-C8-Ts9"/>
-                            <constraint firstItem="jzZ-ol-E33" firstAttribute="leading" secondItem="TOf-15-9gf" secondAttribute="leading" id="idj-2G-arI"/>
+                            <constraint firstItem="qba-OE-jQ6" firstAttribute="width" secondItem="hXu-Yd-3H9" secondAttribute="width" id="9Fm-Mn-FFV"/>
+                            <constraint firstAttribute="bottom" secondItem="2ff-aE-JeI" secondAttribute="bottom" id="Pvy-rd-Bha"/>
+                            <constraint firstItem="2ff-aE-JeI" firstAttribute="leading" secondItem="hXu-Yd-3H9" secondAttribute="leading" id="b1P-zD-gWq"/>
+                            <constraint firstItem="2ff-aE-JeI" firstAttribute="top" secondItem="hXu-Yd-3H9" secondAttribute="top" id="hTu-Ha-BfO"/>
+                            <constraint firstAttribute="trailing" secondItem="2ff-aE-JeI" secondAttribute="trailing" id="lwK-94-5yZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TOf-15-9gf"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="profile" id="Hxi-dS-06O"/>
+                    <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u48-jJ-2Ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1884" y="859.52023988005999"/>
+            <point key="canvasLocation" x="1884" y="859.07046476761627"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="jHg-mj-fuK">
