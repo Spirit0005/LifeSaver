@@ -16,7 +16,12 @@ class SignupViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func SignUpBtn(_ sender: Any) {
+        
+        performSegue(withIdentifier:"main2", sender: nil)
 
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -31,11 +31,13 @@ class LoginViewController: UIViewController {
     }
     
 
-    @IBAction func loginBtn(_ sender: Any) {
+    @IBAction func LoginBtn(_ sender: Any) {
         
+        performSegue(withIdentifier:"main1", sender: nil)
+
     }
     
-    @IBAction func signupBtn(_ sender: Any) {
+    @IBAction func SignUpBtn(_ sender: Any) {
         
         performSegue(withIdentifier:"signupSegue", sender: nil)
     }
