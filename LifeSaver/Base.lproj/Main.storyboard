@@ -123,8 +123,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="email" destination="feK-33-3jm" id="OOj-H0-oMz"/>
-                        <outlet property="password" destination="HES-Q4-3v2" id="G8u-To-tmO"/>
+                        <outlet property="Email" destination="feK-33-3jm" id="OOj-H0-oMz"/>
+                        <outlet property="Password" destination="HES-Q4-3v2" id="G8u-To-tmO"/>
                         <segue destination="eTY-1W-zPI" kind="show" identifier="signupSegue" id="dsc-PZ-uMv"/>
                         <segue destination="RaE-Hw-g7t" kind="show" identifier="main1" id="udJ-5y-QtR"/>
                     </connections>
@@ -229,10 +229,10 @@
             </objects>
             <point key="canvasLocation" x="871" y="-294"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat View Controller-->
         <scene sceneID="2aL-ou-852">
             <objects>
-                <viewController id="GVZ-3d-brC" sceneMemberID="viewController">
+                <viewController id="GVZ-3d-brC" customClass="ChatViewController" customModule="LifeSaver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tMw-iq-k4u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,10 +245,10 @@
             </objects>
             <point key="canvasLocation" x="697" y="860"/>
         </scene>
-        <!--View Controller-->
+        <!--Notification View Controller-->
         <scene sceneID="BHT-IX-Ocy">
             <objects>
-                <viewController id="koG-we-Thi" sceneMemberID="viewController">
+                <viewController id="koG-we-Thi" customClass="NotificationViewController" customModule="LifeSaver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wpf-Tt-hRI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -261,10 +261,10 @@
             </objects>
             <point key="canvasLocation" x="2918" y="860"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="Dgz-bW-7nI">
             <objects>
-                <viewController id="7y1-68-ydM" sceneMemberID="viewController">
+                <viewController id="7y1-68-ydM" customClass="ProfileViewController" customModule="LifeSaver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hXu-Yd-3H9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -276,7 +276,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bck1" translatesAutoresizingMaskIntoConstraints="NO" id="ZzY-da-1H5">
-                                                <rect key="frame" x="0.0" y="115" width="375" height="736"/>
+                                                <rect key="frame" x="-8" y="8" width="375" height="664"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
@@ -304,12 +304,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TOf-15-9gf"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7wb-dA-bdv"/>
+                    <navigationItem key="navigationItem" id="7wb-dA-bdv">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="mTu-dQ-pwU">
+                            <connections>
+                                <action selector="LogoutButton:" destination="7y1-68-ydM" id="pjK-uQ-S8u"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u48-jJ-2Ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1806" y="1787"/>
+            <point key="canvasLocation" x="1805.5999999999999" y="1786.5067466266869"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="jHg-mj-fuK">

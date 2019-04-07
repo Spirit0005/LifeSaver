@@ -18,7 +18,6 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var Password: CustomTextField!
     @IBOutlet weak var RePassword: CustomTextField!
     
-    var user = Auth.auth()
 
 
     override func viewDidLoad() {
@@ -37,7 +36,7 @@ class SignupViewController: UIViewController {
         guard let rePass = RePassword.text else {return}
 
         
-        user.createUser(withEmail: id, password: pass){ result, error in
+         Auth.auth().createUser(withEmail: id, password: pass){ result, error in
             
             if error == nil && result != nil{
                 print("user created")

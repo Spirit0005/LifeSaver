@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 extension UIViewController{
     
@@ -30,15 +31,41 @@ class LoginViewController: UIViewController {
         self.hideKeyboard()
     }
     
-    @IBOutlet weak var email: CustomTextField!
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if let user = Auth.auth().currentUser {
+            
+            self.performSegue(withIdentifier:"signupSegue", sender: nil)
+
+        }
+        
+    }
     
-    @IBOutlet weak var password: CustomTextField!
+    
+    @IBOutlet weak var Email: CustomTextField!
+    
+    @IBOutlet weak var Password: CustomTextField!
     
     
     @IBAction func LoginBtn(_ sender: Any) {
+        guard let id = Email.text else {return}
+        guard let pass = Password.text else {return}
         
-        performSegue(withIdentifier:"main1", sender: nil)
+        Auth.auth().signIn(withEmail: id, password: pass) {result , error in
+            
+            if error == nil && result != nil{
+                print("user logged in")
+                self.performSegue(withIdentifier:"main1", sender: nil)
 
+                
+            }else{
+                print("login error")
+                print("error : \(error?.localizedDescription)")
+                
+            }
+        }
+        
     }
     
     @IBAction func SignUpBtn(_ sender: Any) {

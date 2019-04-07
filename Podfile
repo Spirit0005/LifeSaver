@@ -6,6 +6,7 @@ target 'LifeSaver' do
   use_frameworks!
 pod 'Firebase/Core'
 pod 'FirebaseUI/Auth'
+pod 'Firebase/Firestore'
 
   # Pods for LifeSaver
 
