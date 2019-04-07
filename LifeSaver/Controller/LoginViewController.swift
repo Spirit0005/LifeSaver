@@ -36,7 +36,7 @@ class LoginViewController: UIViewController {
         
         if let user = Auth.auth().currentUser {
             
-            self.performSegue(withIdentifier:"signupSegue", sender: nil)
+            self.performSegue(withIdentifier:"main1", sender: nil)
 
         }
         

@@ -17,12 +17,7 @@ class ProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func LogoutButton(_ sender: Any) {
-        
-        try! Auth.auth().signOut()
-        self.dismiss(animated: false, completion: nil)
-        
-    }
+    
     
     /*
     // MARK: - Navigation
