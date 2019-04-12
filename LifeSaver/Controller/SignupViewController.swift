@@ -18,6 +18,7 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var Password: CustomTextField!
     @IBOutlet weak var RePassword: CustomTextField!
     
+    let db = Firestore.firestore()
 
 
     override func viewDidLoad() {
@@ -40,7 +41,6 @@ class SignupViewController: UIViewController {
             
             if error == nil && result != nil{
                 print("user created")
-                self.performSegue(withIdentifier:"main2", sender: nil)
 
             }else{
                 print("user not created")
@@ -48,9 +48,22 @@ class SignupViewController: UIViewController {
                 
             }
             
-            
         }
         
+       db.collection("users").addDocument(data: [
+        "firstname" : firstN,
+        "lastname" : lastN
+        
+       ]) { (err) in
+        if let err = err {
+            print("Error uploading data : \(err)")
+        }else{
+            print("User added in database")
+            self.performSegue(withIdentifier:"main2", sender: nil)
+
+        }
+        
+        }
         
     }
     
