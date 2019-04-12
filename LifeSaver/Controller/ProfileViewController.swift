@@ -11,10 +11,24 @@ import Firebase
 
 class ProfileViewController: UIViewController {
 
+    private var userCollectionRef: CollectionReference!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        userCollectionRef = Firestore.firestore().collection("users")
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        userCollectionRef.getDocuments { (snap, error) in
+            if let err = error{
+                debugPrint("error fetching data \(err)")
+            }else{
+                guard let snapshot = snap else {return}
+                for doc in snapshot.documents{
+                    print(doc.data())
+                }
+            }
+        }
     }
     
     @IBAction func LogoutButton(_ sender: Any) {
