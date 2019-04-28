@@ -11,7 +11,6 @@
 		A0CE065AA252A7BF2DF58E84 /* Pods_LifeSaverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D906F29D9DD607F8C89A8FE /* Pods_LifeSaverUITests.framework */; };
 		BB0424EC2253EA01008F3401 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0424EB2253EA01008F3401 /* CustomTextField.swift */; };
 		BB0424EF2255DA96008F3401 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0424EE2255DA96008F3401 /* SignupViewController.swift */; };
-		BB04CF962255FF9B00C7A12A /* icon 3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB04CF952255FF9A00C7A12A /* icon 3x.png */; };
 		BB34054022593BE0006ECAFA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34053F22593BE0006ECAFA /* User.swift */; };
 		BB34054122593BE0006ECAFA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34053F22593BE0006ECAFA /* User.swift */; };
 		BB34054222593BE0006ECAFA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34053F22593BE0006ECAFA /* User.swift */; };
@@ -335,7 +334,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB04CF962255FF9B00C7A12A /* icon 3x.png in Resources */,
 				BBACD55722528FA400FE8EBA /* LaunchScreen.storyboard in Resources */,
 				BBACD55422528FA400FE8EBA /* Assets.xcassets in Resources */,
 				BBACD55222528FA000FE8EBA /* Main.storyboard in Resources */,
@@ -691,7 +689,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Spirit.LifeSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -711,7 +709,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Spirit.LifeSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
