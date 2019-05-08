@@ -12,13 +12,23 @@ import Firebase
 class ProfileViewController: UIViewController {
 
     private var userCollectionRef: CollectionReference!
+    @IBOutlet weak var Profile: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         userCollectionRef = Firestore.firestore().collection("users")
+        
         // Do any additional setup after loading the view.
+        Profile.layer.cornerRadius = Profile.frame.height/2
+        Profile.clipsToBounds = true
     }
     
+    
     override func viewWillAppear(_ animated: Bool) {
+        
+        
+        
         userCollectionRef.getDocuments { (snap, error) in
             if let err = error{
                 debugPrint("error fetching data \(err)")
