@@ -50,6 +50,7 @@ class SignupViewController: UIViewController {
             
         }
         
+        
        db.collection("users").addDocument(data: [
         "firstname" : firstN,
         "lastname" : lastN
